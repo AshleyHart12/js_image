@@ -1,0 +1,29 @@
+:root{
+    --spacing: 30px;
+    --base: #000000;
+    --blur: 10px;
+}
+
+body{
+    text-align: center;
+}
+
+input{
+    margin: 2rem;
+}
+
+.controls{
+    display: inline-block;
+    margin: 2rem;
+}
+
+img{
+    width: 500px;
+    padding: var(--spacing);
+    background: var(--base);
+    filter: blur(var(--blur));
+}
+
+h1{
+    color: var(--base);
+}
